@@ -12,8 +12,10 @@ Map {
   
 }
 
-#base {
-  raster-opacity:0.4;
+
+
+#ibase {
+  raster-opacity:0.6;
 }
 
 #provincias [NPROVINCIA = "GUANACASTE"][zoom >= 6][zoom <= 7] {
@@ -211,3 +213,6 @@ Map {
   marker-line-color:#813;
   marker-allow-overlap:true;
 }
+
+
+
