@@ -18,7 +18,7 @@ Map {
   raster-opacity:0.6;
 }
 
-#provincias [NPROVINCIA = "GUANACASTE"][zoom >= 6][zoom <= 7] {
+#provincias [NPROVINCIA = "GUANACASTE"][zoom >= 8][zoom <= 9] {
   line-color:#255;
   line-width:3;
   text-face-name: "Arial Bold";
@@ -26,7 +26,7 @@ Map {
   
 }
 
-#cantones[NPROVINCIA = "GUANACASTE"][zoom >= 8][zoom <=9]{
+#cantones[NPROVINCIA = "GUANACASTE"][zoom >= 9][zoom <=10]{
   line-color:#0000FF;
   line-width:2;
   text-face-name: "Arial Bold";
@@ -94,7 +94,7 @@ Map {
 
 
 //puntos sin etiquetas
-#bancos [PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 16]{
+#bancos [PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 14]{
   marker-file: url('icons/bank.svg');
   marker-width:15;
   marker-fill:#026842;
@@ -103,7 +103,7 @@ Map {
 }
 
 
-#clinicas[PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 16] {
+#clinicas[PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 14] {
   marker-file: url('icons/hospital-JP.svg');
   marker-width:15;
   marker-fill:#f45;
@@ -112,7 +112,7 @@ Map {
 }
 
 
-#escuelas [PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 16]{
+#escuelas [PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 14]{
   marker-file: url('icons/college.svg');
   marker-width:15;
   marker-fill:#000;
@@ -121,7 +121,7 @@ Map {
 }
 
 
-#hospitales [PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 16]{
+#hospitales [PROVINCIA = "GUANACASTE"][zoom >= 11][zoom <= 14]{
   marker-file: url('icons/doctor.svg');
   marker-width:20;
   marker-fill:#0000FF;
@@ -130,7 +130,7 @@ Map {
 
 }
 
-#gasolineras [zoom >= 11][zoom <= 16] {
+#gasolineras [zoom >= 11][zoom <= 14] {
   marker-file: url('icons/charging-station.svg');
   marker-width:15;
   marker-fill:#000;
@@ -138,7 +138,7 @@ Map {
   marker-allow-overlap:true;
 }
 
-#hoteles[zoom >= 11][zoom <= 16]  {
+#hoteles[zoom >= 11][zoom <= 14]  {
   marker-width:15;
   marker-file: url('icons/lodging.svg');
   marker-fill:#000;
@@ -147,7 +147,7 @@ Map {
 }
 
 //puntos con etiquetas
-#bancos [PROVINCIA = "GUANACASTE"][zoom >= 16]{
+#bancos [PROVINCIA = "GUANACASTE"][zoom >= 14]{
   text-face-name: "Arial Bold";
   text-name: [BANCO];
   marker-file: url('icons/bank.svg');
@@ -159,7 +159,7 @@ Map {
 }
 
 
-#clinicas[PROVINCIA = "GUANACASTE"][zoom >= 16] {
+#clinicas[PROVINCIA = "GUANACASTE"][zoom >= 14] {
   text-face-name: "Arial Bold";
   text-name: [NOMBRE];
   marker-file: url('icons/hospital-JP.svg');
@@ -171,7 +171,7 @@ Map {
 }
 
 
-#escuelas [PROVINCIA = "GUANACASTE"][zoom >= 16]{
+#escuelas [PROVINCIA = "GUANACASTE"][zoom >= 14]{
   text-face-name: "Arial Bold";
   text-name: [NOMBRE];
   marker-file: url('icons/college.svg');
@@ -183,7 +183,7 @@ Map {
 }
 
 
-#hospitales [PROVINCIA = "GUANACASTE"][zoom >= 16]{
+#hospitales [PROVINCIA = "GUANACASTE"][zoom >= 14]{
   text-face-name: "Arial Bold";
   text-name: [NOMBRE];
   marker-file: url('icons/doctor.svg');
@@ -194,7 +194,7 @@ Map {
   
 }
 
-#gasolineras [zoom >= 16] {
+#gasolineras [zoom >= 14] {
   text-face-name: "Arial Bold";
   text-name: [NOMBRE_REC];
   marker-file: url('icons/charging-station.svg');
@@ -204,7 +204,7 @@ Map {
   marker-allow-overlap:true;
 }
 
-#hoteles[zoom >= 16]  {
+#hoteles[zoom >= 14]  {
   text-face-name: "Arial Bold";
   text-name: [NOMBRE];
   marker-width:5;
