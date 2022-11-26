@@ -13,7 +13,12 @@
   "format": "png",
   "interactivity": {
     "layer": "distritos",
-    "template_teaser": "Canton: {{{NCANTON}}} <br/>\nDistrito: {{{NDISTRITO}}}  <br/>\nPoblación 2000 del distrito: {{{POB_2000_M}}}"
+    "template_teaser": "Canton: {{{NCANTON}}} <br/>\nDistrito: {{{NDISTRITO}}}  <br/>\nPoblación 2000 del distrito: {{{POB_2000_M}}}",
+    "fields": [
+      "NCANTON",
+      "NDISTRITO",
+      "POB_2000_M"
+    ]
   },
   "minzoom": 0,
   "maxzoom": 22,
